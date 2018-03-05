@@ -1,0 +1,161 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	text-align:center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	color:white;
+	height:500px;
+}
+
+.intro p {
+	font-weight:600;
+	font-size:26px;
+}
+
+.intro span {
+	background:#f9e42e;
+	border-radius: 5px;
+	padding: 5px 30px;
+	font-weight:600;
+	color:#033048;
+	font-size: 18px;
+}
+
+header {
+	text-align:left;
+	padding: 10px;
+}
+
+.description {
+	color:#606161;
+	height:300px;
+	padding-bottom: 100px;
+}
+
+
+ h2 {
+	text-align:left;
+	font-weight:600;
+}
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg");
+	background-size: cover;
+	color:white;
+	height:200px;
+	padding: 50px;
+}
+
+.testimonial p {
+	width:270px;
+	margin:0 auto;
+	font-weight:300;
+	font-style:italic;
+	text-align: center;
+}
+
+.testimonial span {
+	font-weight:600;
+	font-style:normal;
+}
+
+.calltoaction {
+	background:#f9e42e;
+	height:80px;
+	padding:10px;
+}
+
+.calltoaction span {
+	padding: 5px 30px;
+	background:#033048;
+	border-radius: 5px;
+	font-weight:600;
+	color:white;
+	font-size: 12px;
+}
+
+.social {
+	background:#121212;
+	padding: 10px;
+	color: #f9e42e;
+	font-weight:800;
+	font-size:32px;
+}
+
+
+.social footer {
+	color:white;
+	font-weight:600;
+	font-size:10px;
+}
+
+ul {
+	display:inline-block;
+	text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
